@@ -248,7 +248,7 @@ button {
 }
 
 .contact {
-    height: 166px;
+    
     margin-top: 100px;
     margin-bottom: 104px;
 }
@@ -348,7 +348,24 @@ button {
         transform: translateX(0);
     }
     .contactp {
-        max-width: 170px;
+        width: 100%;
+       margin-bottom: 30px;
+
+    }
+    .contact__center {
+        flex-direction: column;
+    }
+    h2 {
+        justify-content: center;
+        display: flex;
+    }
+    .numbers {
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .contactp {
+        margin: 0 20px 30px;
     }
 }
 
