@@ -347,6 +347,9 @@ button {
     .burger:hover ~ .header__list{
         transform: translateX(0);
     }
+    .contactp {
+        max-width: 150px;
+    }
 }
 
 @media (max-width: 640px) {
@@ -359,4 +362,5 @@ button {
     button {
         padding: 9px 14px 9px 3px;
     }
+
 }
